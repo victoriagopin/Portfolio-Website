@@ -143,3 +143,120 @@ div.nav ul li a{
 .right ul li{
     list-style: none;
 }
+
+.wrap {
+    display: flex;
+    width: 100%;
+    gap: 45px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+div.container.about{
+    gap: 5px;
+}
+
+.row h2{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.row h3{
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.row p{
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.row ul{
+    font-size: 14px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.row ul li::marker {
+    color: #c27770;
+  }
+
+   h2.studies{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: 0%;
+  }
+
+    display: flex;
+}
+
+.add-info h3 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.add-info {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.add-info p {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 0;
+    padding: 0;
+}
+
+p.heading{
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+p.date{
+    font-size: 12px;
+    color: rgb(94, 94, 94);
+}
+
+.add-info ul, div.fixed ul {
+    font-size: 15px;
+    font-weight: 200;
+    padding-left: 16px;
+}
+
+.add-info ul li::marker, div.fixed ul li::marker  {
+    color: #c27770; 
+}
+
+.add-info a {
+    margin-bottom: 14px;
+    margin-top: -8px;
+    color: #c27770;
+    font-size: 14px;
+}
+
+div.add-info.first{
+    height: 81px;
+    position: relative;
+}
+
+div.fixed ul{
+    margin-top: 5px;
+}
+
+div.fixed h2{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.fixed {
+    position: absolute;
+    top: 442px;
+}
