@@ -92,6 +92,7 @@ div.left img{
     height: 300px;
     padding: 35px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
 }
 
 .nav {
@@ -295,6 +296,10 @@ div.fixed h2{
     color: #c27770;
 }
 
+.right.project.pet-lovers ul li::marker{
+    color: #dddd13;
+}
+
 .right.project ul {
     gap: 5px;
 }
@@ -321,4 +326,82 @@ div.fixed h2{
 .right.project ul a:hover{
     background: #c27770;
     color: white;
+}
+
+.square.project.pet-lovers {
+    background: white;
+}
+
+.nav.pet-lovers ul li{
+    border-bottom: 1px solid #dddd13;
+}
+
+.nav.pet-lovers ul li:hover{
+   font-size: 18px;
+   border-bottom-color: #dddd13;
+}
+
+.right.project ul a.pet-lovers{
+    background: #dddd13;
+    color: white;
+}
+
+.right.project ul a.pet-lovers:hover{
+    background: white;
+    color: #dddd13;
+}
+
+.square.project.cm{
+    background: #1f4258d1;
+}
+
+.right.project.cm ul li::marker{
+    color: turquoise;
+}
+
+.right.project ul a.cm{
+    background: turquoise;
+    color: #1f4258d1;
+}
+
+.right.project ul a.cm:hover{
+    background: #1f4258d1;
+    color: turquoise;
+}
+
+.nav.cm ul li{
+    border-bottom: 1px solid turquoise;
+}
+
+.nav.cm ul li:hover{
+   font-size: 18px;
+   border-bottom-color: turquoise;
+}
+
+.square.project.ul{
+    background: #e7e7e7;
+}
+
+
+.nav.ul ul li{
+    border-bottom: 1px solid #2888a6;
+}
+
+.nav.ul ul li:hover{
+   font-size: 18px;
+   border-bottom-color: #2888a6;
+}
+
+.right.project.ul ul li::marker{
+    color: #2888a6;
+}
+
+.right.project ul a.ul{
+    background: #2888a6;
+    color: #e7e7e7;
+}
+
+.right.project ul a.ul:hover{
+    background: #c2c1c1;
+    color: #2888a6;
 }
