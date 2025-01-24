@@ -261,3 +261,62 @@ div.fixed h2{
     position: absolute;
     top: 442px;
 }
+
+.square.project{
+    width: 70%;
+    height: 442px;
+}
+
+.left.project{
+    width: 40%;
+}
+
+.left.project img{
+    width: 100%;
+    height: 340px;
+    border-radius: 5px;
+    border: 2px solid #c27770;
+    margin-top: 24px;
+}
+
+.right.project {
+    width: 55%;
+    margin-left: 421px;
+    margin-top: -375px;
+}
+
+.right.project ul li {
+    list-style: disc;
+}
+
+.right.project ul li::marker{
+    color: #c27770;
+}
+
+.right.project ul {
+    gap: 5px;
+}
+
+.right.project ul.inner-ul li{
+    list-style: circle;
+}
+
+.right.project ul.inner-ul {
+    padding-left: 16px;
+}
+
+.right.project ul a {
+    margin-top: 15px;
+    text-decoration: none;
+    background: white;
+    color: #c27770;
+    width: 226px;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+
+.right.project ul a:hover{
+    background: #c27770;
+    color: white;
+}
