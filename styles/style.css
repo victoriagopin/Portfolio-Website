@@ -263,7 +263,7 @@ div.fixed h2{
 }
 
 .square.project{
-    width: 70%;
+    width: 85%;
     height: 442px;
 }
 
@@ -272,17 +272,19 @@ div.fixed h2{
 }
 
 .left.project img{
-    width: 100%;
+    width: 111%;
     height: 340px;
     border-radius: 5px;
     border: 2px solid #c27770;
     margin-top: 24px;
+    object-fit: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .right.project {
     width: 55%;
-    margin-left: 421px;
-    margin-top: -375px;
+    margin-left: 46%;
+    margin-top: -365px;
 }
 
 .right.project ul li {
