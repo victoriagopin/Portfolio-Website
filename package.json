@@ -1,0 +1,20 @@
+{
+  "name": "aboutme",
+  "version": "1.0.0",
+  "description": "Portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriagopin/AboutMe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoriagopin/AboutMe/issues"
+  },
+  "homepage": "https://github.com/victoriagopin/AboutMe#readme"
+}
