@@ -193,6 +193,7 @@ div.container.about{
     margin-left: 0%;
   }
 
+  .column {
     display: flex;
 }
 
