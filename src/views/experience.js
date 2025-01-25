@@ -1,43 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body>
-    <header>
+import { html, render } from '../lib.js'
 
-        <nav>
-            <ul>
-                <li><a href="/index.html">За мен</a></li>
-               
-                <li><a href=""><i class="fa-brands fa-github"></i></a></li>
-            
-                <li><a href="/movie-magic.html">Проекти</a></li>
-            </ul>
-        </nav>
-
-        <div class="navigation">
-    
-                <div class="heading">
-                    <h1>За<span>Meн</span></h1>
-                </div>
-        </div>
-    </header>
-
-    <main>
-        <!-- <div class="container about">
+const experienceTemplate = () => html`
+ <div class="container about">
             <div class="square">
                 <div class="nav">
                     <ul>
-                        <li><a href="index.html">Лична информация</a></li>
-                        <li><a href="experience.html">Опит</a></li>
+                        <li><a href="/about">Лична информация</a></li>
+                        <li><a href="/experience">Опит</a></li>
                         <li><a href="additional-info.html">Допълнителна информация</a></li>
                     </ul>
                 </div>
@@ -70,7 +39,8 @@
                     </div>
                 </div>
             </div>
-        </div> -->
-    </main>
-</body>
-</html>
+        </div>`;
+
+export function showExperience(ctx){
+    render(experienceTemplate());
+}

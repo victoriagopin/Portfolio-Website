@@ -6,7 +6,7 @@ const aboutMeTemplate = () => html`
         <div class="nav">
             <ul>
                 <li><a href="/about">Лична информация</a></li>
-                <li><a href="experience.html">Опит</a></li>
+                <li><a href="/experience">Опит</a></li>
                 <li><a href="additional-info.html">Допълнителна информация</a></li>
             </ul>
         </div>
