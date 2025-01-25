@@ -33,7 +33,7 @@ const suTemplate = () => html`
                             <li>Работа с не-релационни бази данн</li>
                             <li>Работа с REST API и асинхронно програмиране</li>
                        </ul>
-                       <a href="" class="su">Линк към проекта в GitHub</a>
+                       <a href="https://github.com/victoriagopin/SoftUni-Software-Engineering" target="_blank" class="su">Линк към проекта в GitHub</a>
                     </ul>
                 </div>
             </div>

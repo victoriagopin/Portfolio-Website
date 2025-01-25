@@ -27,7 +27,7 @@ const userListTemplate = () => html`
                             <li>Редактират съществуващи данни</li>
                             <li>Изтриват потребителски записи</li>
                         </ul>
-                       <a href="" class="ul">Линк към проекта в GitHub</a>
+                       <a href="https://github.com/victoriagopin/User-List-ReactJS" target="_blank" class="ul">Линк към проекта в GitHub</a>
                     </ul>
                 </div>
             </div>

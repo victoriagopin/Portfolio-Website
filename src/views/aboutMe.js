@@ -11,7 +11,7 @@ const aboutMeTemplate = () => html`
             </ul>
         </div>
         <div class="left">
-            <img src="./images/me.jpg" alt="">
+            <img src="./images/me2.jpg" alt="">
         </div>
 
         <div class="right">

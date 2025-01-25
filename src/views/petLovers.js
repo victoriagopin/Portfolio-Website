@@ -35,7 +35,7 @@ const petLoversTemplate = () =>  html`
                             <li>Редактиране или изтриване на собствени публикации</li>
                             <li>Search страница</li>
                        </ul>
-                       <a href="">Линк към проекта в GitHub</a>
+                       <a href="https://github.com/victoriagopin/Pet-Lovers-React-Project" target="_blank">Линк към проекта в GitHub</a>
                     </ul>
                 </div>
             </div>
