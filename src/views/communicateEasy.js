@@ -2,8 +2,8 @@ import { html, render } from '../lib.js';
 
 const communicateEasyTemplate = () => html`
   <div class="container">
-            <div class="square project cm">
-                <div class="nav cm">
+            <div class="square project">
+                <div class="nav">
                     <ul>
                         <li><a href="/projects">Movie-Magic</a></li>
                         <li><a href="/pet-lovers">PetLovers</a></li>
@@ -16,7 +16,7 @@ const communicateEasyTemplate = () => html`
                     <img src="./images/communicateeasy.png" alt="">
                 </div>
 
-                <div class="right project cm">
+                <div class="right project">
 
                     <ul>
                         <li>Communicate Easy е приложение, разработено с ReactJS </li>
@@ -25,7 +25,7 @@ const communicateEasyTemplate = () => html`
                         <li>Уеб-риложението включва функции като създаване на профил, което позволява на потребителите да персонализират своето изживяване</li>
                         <li>С бутона Communicate Now потребителите могат лесно да се свързват с други и да започват разговори без усилие</li>
                        <li>Функцията My Chats предлага удобен начин за преглед и управление на всички текущи разговори</li>
-                       <a href="" class="cm">Линк към проекта в GitHub</a>
+                       <a href="">Линк към проекта в GitHub</a>
                     </ul>
                 </div>
             </div>

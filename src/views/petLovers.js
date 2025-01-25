@@ -2,8 +2,8 @@ import { html, render } from '../lib.js';
 
 const petLoversTemplate = () =>  html`
   <div class="container">
-            <div class="square project pet-lovers">
-                <div class="nav pet-lovers">
+            <div class="square project">
+                <div class="nav">
                     <ul>
                         <li><a href="/projects">Movie-Magic</a></li>
                         <li><a href="/pet-lovers">PetLovers</a></li>
@@ -12,11 +12,11 @@ const petLoversTemplate = () =>  html`
                         <li><a href="/su-exercise">SoftUni Exercises</a></li>
                     </ul>
                 </div>
-                <div class="left project">
+                <div class="left project pet-lovers">
                     <img src="./images/petlovers.png" alt="">
                 </div>
 
-                <div class="right project pet-lovers">
+                <div class="right project">
 
                     <ul>
                         <li>PetLovers е Single Page Application (SPA), създадено използвайки REACT </li>
@@ -28,14 +28,14 @@ const petLoversTemplate = () =>  html`
                             <li>About страница</li>
                         </ul>
                         <li>Регистриран потребител има достъп и до:</li>
-                       <ul class="inner-ul pet-lovers">
+                       <ul class="inner-ul">
                             <li>Pet Details страница</li>
                             <li>Like функционалност</li>
                             <li>Създаване и управление на потребителски профил и на дом. любимец</li>
                             <li>Редактиране или изтриване на собствени публикации</li>
                             <li>Search страница</li>
                        </ul>
-                       <a href="" class="pet-lovers">Линк към проекта в GitHub</a>
+                       <a href="">Линк към проекта в GitHub</a>
                     </ul>
                 </div>
             </div>

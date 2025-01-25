@@ -7,7 +7,7 @@ const projectsTemplate = () => html `
                     <ul>
                         <li><a href="/projects">Movie-Magic</a></li>
                         <li><a href="/pet-lovers">PetLovers</a></li>
-                        <li><a href="/communicate-easyl">Communicate-Easy</a></li>
+                        <li><a href="/communicate-easy">Communicate-Easy</a></li>
                         <li><a href="/user-list">Users List</a></li>
                         <li><a href="/su-exercise">SoftUni Exercises</a></li>
                     </ul>

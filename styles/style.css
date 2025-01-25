@@ -17,16 +17,16 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 24%;
+    width: 93px;
     background: white;
     border-radius: 50px;
     margin: auto;
     position: absolute;
     top: 65px;
     right: 50%;
-    transform: translateX(53%);
+    transform: translateX(62%);
     z-index: 2;
-    height: 70px;
+    height: 89px;
 }
 
 nav {
@@ -49,6 +49,11 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #ddcccb;
+}
+
+.heading a > i{
+    font-size: 32px;
+    color: #9d8785;
 }
 
 .heading {
@@ -282,7 +287,7 @@ div.fixed h2{
     width: 111%;
     height: 340px;
     border-radius: 5px;
-    border: 2px solid #c27770;
+    border: 3px solid #c27770;
     margin-top: 24px;
     object-fit: cover;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -300,10 +305,6 @@ div.fixed h2{
 
 .right.project ul li::marker{
     color: #c27770;
-}
-
-.right.project.pet-lovers ul li::marker{
-    color: #e7d518;
 }
 
 .right.project ul {
@@ -337,7 +338,7 @@ div.fixed h2{
 /* .square.project.pet-lovers {
     background: white;
 } */
-
+/* 
 .nav.pet-lovers ul li{
     border-bottom: 1px solid #e7d518;
 }
@@ -361,7 +362,7 @@ div.fixed h2{
     background: #1f4258d1;
 } */
 
-.right.project.cm ul li::marker{
+/* .right.project.cm ul li::marker{
     color: turquoise;
 }
 
@@ -382,13 +383,13 @@ div.fixed h2{
 .nav.cm ul li:hover{
    font-size: 18px;
    border-bottom-color: turquoise;
-}
+} */
 
 /* .square.project.ul{
     background: #e7e7e7;
 } */
 
-
+/* 
 .nav.ul ul li{
     border-bottom: 1px solid #2888a6;
 }
@@ -410,13 +411,13 @@ div.fixed h2{
 .right.project ul a.ul:hover{
     background: #c2c1c1;
     color: #2888a6;
-}
+} */
 
 /* .square.project.su{
     background: #1A1B16;
 } */
 
-.right.project.su ul li {
+/* .right.project.su ul li {
     color: #000000bf;
 }
 
@@ -447,16 +448,20 @@ color: #000000bf;
 .right.project ul a.su:hover{
     background: #a349ff;
     color: #c2c1c1;
-}
+}  */
 
 .left.project.su img {
-    border-color: #a349ff;
+    border: 3px solid #a349ff;
 }
 
 .left.project.ul img {
-    border-color: #2888a6;
+    border: 3px solid #2888a6;
 }
 
 .left.project.cm img {
-    border-color: turquoise;
+    border: 3px solid #74c9be;
+}
+
+.left.project.pet-lovers img {
+    border: 3px solid #e7d518;
 }
