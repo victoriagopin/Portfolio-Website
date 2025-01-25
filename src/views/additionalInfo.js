@@ -24,10 +24,10 @@ const additionalInfoTemplate = () => html`
                             <h3>SoftAcademy Курсове</h3>
                             <p class="heading">Завършен курс: Web Programming -<br/> HTML, CSS and JS</p>
                             <p class="date">09/01/2023 - София, България</p>
-                            <a href="">Certificate</a>
+                            <a href="./images/webpro.jpg" target="_blank">Certificate</a>
                             <p class="heading">Завършен курс: Web Development - Mentoring Program</p>
                             <p class="date">27/02/2023 - София, България</p>
-                            <a href="">Certificate</a>
+                            <a href="./images/mentorshipp.jpg" target="_blank">Certificate</a>
                         </div>
 
                         <div class="add-info">
