@@ -440,13 +440,13 @@ color: #000000bf;
 }
 
 .right.project ul a.su{
-    background: #9b9b9b;
+    background: #c2c1c1;
     color: #a349ff;
 }
 
 .right.project ul a.su:hover{
     background: #a349ff;
-    color: #9b9b9b;
+    color: #c2c1c1;
 }
 
 .left.project.su img {
