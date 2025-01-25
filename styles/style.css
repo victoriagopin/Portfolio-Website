@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    background: #ddcccb;
+    background: #f1f1f1;
     padding: 0;
     margin: 0;
     font-family: "Roboto Flex", serif;
@@ -8,7 +8,7 @@ body{
 
 header{
     width: 100%;
-    background: #c27770;
+    background: #9d8785;
     height: 85px;
     position: relative;
 }
@@ -93,6 +93,7 @@ div.left img{
     padding: 35px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
+    background: #d6d6d6;
 }
 
 .nav {
@@ -297,7 +298,7 @@ div.fixed h2{
 }
 
 .right.project.pet-lovers ul li::marker{
-    color: #dddd13;
+    color: #e7d518;
 }
 
 .right.project ul {
@@ -328,32 +329,32 @@ div.fixed h2{
     color: white;
 }
 
-.square.project.pet-lovers {
+/* .square.project.pet-lovers {
     background: white;
-}
+} */
 
 .nav.pet-lovers ul li{
-    border-bottom: 1px solid #dddd13;
+    border-bottom: 1px solid #e7d518;
 }
 
 .nav.pet-lovers ul li:hover{
    font-size: 18px;
-   border-bottom-color: #dddd13;
+   border-bottom-color: #e7d518;
 }
 
 .right.project ul a.pet-lovers{
-    background: #dddd13;
+    background: #e7d518;
     color: white;
 }
 
 .right.project ul a.pet-lovers:hover{
-    background: white;
-    color: #dddd13;
+    background: rgb(160, 151, 151);
+    color: #e7d518;
 }
 
-.square.project.cm{
+/* .square.project.cm{
     background: #1f4258d1;
-}
+} */
 
 .right.project.cm ul li::marker{
     color: turquoise;
@@ -378,9 +379,9 @@ div.fixed h2{
    border-bottom-color: turquoise;
 }
 
-.square.project.ul{
+/* .square.project.ul{
     background: #e7e7e7;
-}
+} */
 
 
 .nav.ul ul li{
@@ -404,4 +405,53 @@ div.fixed h2{
 .right.project ul a.ul:hover{
     background: #c2c1c1;
     color: #2888a6;
+}
+
+/* .square.project.su{
+    background: #1A1B16;
+} */
+
+.right.project.su ul li {
+    color: #000000bf;
+}
+
+.nav.su ul li{
+    color: #ffffffbf;
+    border-bottom: 1px solid #a349ff;
+}
+
+
+.nav.su ul li a{
+color: #000000bf;
+}
+
+.nav.su ul li:hover{
+    font-size: 18px;
+    border-bottom-color: #a349ff;
+ }    
+
+ .right.project.su ul li::marker{
+    color: #a349ff;
+}
+
+.right.project ul a.su{
+    background: #9b9b9b;
+    color: #a349ff;
+}
+
+.right.project ul a.su:hover{
+    background: #a349ff;
+    color: #9b9b9b;
+}
+
+.left.project.su img {
+    border-color: #a349ff;
+}
+
+.left.project.ul img {
+    border-color: #2888a6;
+}
+
+.left.project.cm img {
+    border-color: turquoise;
 }
