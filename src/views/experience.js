@@ -7,7 +7,7 @@ const experienceTemplate = () => html`
                     <ul>
                         <li><a href="/about">Лична информация</a></li>
                         <li><a href="/experience">Опит</a></li>
-                        <li><a href="additional-info.html">Допълнителна информация</a></li>
+                        <li><a href="/additional-information">Допълнителна информация</a></li>
                     </ul>
                 </div>
             
