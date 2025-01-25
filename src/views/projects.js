@@ -32,7 +32,7 @@ const projectsTemplate = () => html `
                             <li>Да създават нови филми в платформата</li>
                             <li>Да добавят актьорски състав към създадените филми</li>
                        </ul>
-                       <a href="https://github.com/victoriagopin/SoftUni-Workshop-Movie-Magic" target="_blank">Линк към проекта в GitHub</a>
+                       <a href="https://github.com/victoriagopin/Movie-Magic" target="_blank">Линк към проекта в GitHub</a>
                     </ul>
                 </div>
             </div>
