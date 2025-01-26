@@ -17,7 +17,7 @@ In order to view the website, follow these steps:
     ```bash
     npm install
 
-3. After the installation is complete, open the project with **Live Server**.
+3. After the installation is complete, open the project with **Live Server** from index.html .
 
 The project is created using **Lit HTML**, which allows for fast and efficient rendering of HTML templates.
 
