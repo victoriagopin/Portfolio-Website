@@ -298,6 +298,7 @@ div.fixed h2{
     width: 55%;
     margin-left: 46%;
     margin-top: -365px;
+    display: flex;
 }
 
 .right.project ul li {
