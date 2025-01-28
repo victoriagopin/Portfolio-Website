@@ -13,7 +13,7 @@ const userListTemplate = () => html`
                     </ul>
                 </div>
                 <div class="left project ul">
-                    <img src="./images/userlist.png" alt="">
+                    <img src="/images/userlist.png" alt="">
                 </div>
 
                 <div class="right project ul">

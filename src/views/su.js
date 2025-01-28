@@ -13,7 +13,7 @@ const suTemplate = () => html`
                     </ul>
                 </div>
                 <div class="left project su">
-                    <img src="./images/su.png" alt="">
+                    <img src="/images/su.png" alt="">
                 </div>
 
                 <div class="right project su">

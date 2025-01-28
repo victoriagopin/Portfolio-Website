@@ -13,7 +13,7 @@ const petLoversTemplate = () =>  html`
                     </ul>
                 </div>
                 <div class="left project pet-lovers">
-                    <img src="./images/petlovers.png" alt="">
+                    <img src="/images/petlovers.png" alt="">
                 </div>
 
                 <div class="right project">

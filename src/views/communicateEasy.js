@@ -13,7 +13,7 @@ const communicateEasyTemplate = () => html`
                     </ul>
                 </div>
                 <div class="left project cm">
-                    <img src="./images/communicateeasy.png" alt="">
+                    <img src="/images/communicateeasy.png" alt="">
                 </div>
 
                 <div class="right project">

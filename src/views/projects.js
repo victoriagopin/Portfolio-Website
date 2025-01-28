@@ -13,7 +13,7 @@ const projectsTemplate = () => html `
                     </ul>
                 </div>
                 <div class="left project">
-                    <img src="./images/moviemagic.png" alt="">
+                    <img src="/images/moviemagic.png" alt="">
                 </div>
 
                 <div class="right project">

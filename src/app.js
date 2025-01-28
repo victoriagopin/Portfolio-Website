@@ -9,7 +9,7 @@ import { showSuTemplate } from "./views/su.js";
 import { showUserList } from "./views/userList.js";
 
 page('/', '/about');
-// page('/index.html', '/about');
+page('/index.html', '/about');
 
 page('/about', showAboutMe);
 page('/experience', showExperience);
