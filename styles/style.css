@@ -6,6 +6,13 @@ body{
     font-family: "Roboto Flex", serif;
 }
 
+.redirect p{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    color: #c27770;
+}
+
 header{
     width: 100%;
     background: #9d8785;
