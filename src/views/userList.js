@@ -12,9 +12,6 @@ const userListTemplate = () => html`
                         <li><a href="/su-exercise">SoftUni Exercises</a></li>
                     </ul>
                 </div>
-                <div class="left project ul">
-                    <img src="/images/userlist.png" alt="">
-                </div>
 
                 <div class="right project ul">
 
@@ -30,6 +27,21 @@ const userListTemplate = () => html`
                        <a href="https://github.com/victoriagopin/User-List-ReactJS" target="_blank" class="ul">Линк към проекта в GitHub</a>
                     </ul>
                 </div>
+
+
+                <div>
+                 
+                 <input type="radio" name="position" />
+                 <input type="radio" name="position" />
+                 <input type="radio" name="position" checked />
+                 <input type="radio" name="position" />
+                 <main id="carousel">
+                   <div class="item ul"></div>
+                   <div class="item ul"></div>
+                   <div class="item ul"></div>
+                   <div class="item ul"></div>
+                   </main>
+             </div>
             </div>
         </div>`;
 

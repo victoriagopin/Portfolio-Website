@@ -12,9 +12,6 @@ const communicateEasyTemplate = () => html`
                         <li><a href="/su-exercise">SoftUni Exercises</a></li>
                     </ul>
                 </div>
-                <div class="left project cm">
-                    <img src="/images/communicateeasy.png" alt="">
-                </div>
 
                 <div class="right project">
 
@@ -28,6 +25,24 @@ const communicateEasyTemplate = () => html`
                        <a href="https://github.com/victoriagopin/Communicate-Easy" target="_blank">Линк към проекта в GitHub</a>
                     </ul>
                 </div>
+
+                <div>
+                 
+                 <input type="radio" name="position" />
+                 <input type="radio" name="position" />
+                 <input type="radio" name="position" checked />
+                 <input type="radio" name="position" />
+                 <input type="radio" name="position" />
+                 <input type="radio" name="position" />
+                 <main id="carousel">
+                   <div class="item ce"></div>
+                   <div class="item ce"></div>
+                   <div class="item ce"></div>
+                   <div class="item ce"></div>
+                   <div class="item ce"></div>
+                   <div class="item ce"></div>
+                   </main>
+             </div>
             </div>
         </div>`;
 

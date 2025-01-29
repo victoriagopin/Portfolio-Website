@@ -12,9 +12,6 @@ const suTemplate = () => html`
                         <li><a href="/su-exercise">SoftUni Exercises</a></li>
                     </ul>
                 </div>
-                <div class="left project su">
-                    <img src="/images/su.png" alt="">
-                </div>
 
                 <div class="right project su">
 
@@ -36,6 +33,22 @@ const suTemplate = () => html`
                        <a href="https://github.com/victoriagopin/SoftUni-Software-Engineering" target="_blank" class="su">Линк към проекта в GitHub</a>
                     </ul>
                 </div>
+
+                <div>
+                 
+                 <input type="radio" name="position" />
+                 <input type="radio" name="position" />
+                 <input type="radio" name="position" checked />
+                 <input type="radio" name="position" />
+                 <input type="radio" name="position" />
+                 <main id="carousel">
+                   <div class="item su"></div>
+                   <div class="item su"></div>
+                   <div class="item su"></div>
+                   <div class="item su"></div>
+                   <div class="item su"></div>
+                   </main>
+             </div>
             </div>
         </div>`;
 

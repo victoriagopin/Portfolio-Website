@@ -12,9 +12,6 @@ const petLoversTemplate = () =>  html`
                         <li><a href="/su-exercise">SoftUni Exercises</a></li>
                     </ul>
                 </div>
-                <div class="left project pet-lovers">
-                    <img src="/images/petlovers.png" alt="">
-                </div>
 
                 <div class="right project">
 
@@ -38,6 +35,26 @@ const petLoversTemplate = () =>  html`
                        <a href="https://github.com/victoriagopin/Pet-Lovers-React-Project" target="_blank">Линк към проекта в GitHub</a>
                     </ul>
                 </div>
+
+                <div>
+                 
+                 <input type="radio" name="position"  class="first"/>
+                 <input type="radio" name="position" />
+                 <input type="radio" name="position" />
+                 <input type="radio" name="position" checked />
+                 <input type="radio" name="position" />
+                 <input type="radio" name="position" />
+                 <input type="radio" name="position" />
+                 <main id="carousel">
+                   <div class="item pl"></div>
+                   <div class="item pl"></div>
+                   <div class="item pl"></div>
+                   <div class="item pl"></div>
+                   <div class="item pl"></div>
+                   <div class="item pl"></div>
+                   <div class="item pl"></div>
+                   </main>
+             </div>
             </div>
         </div>`;
 

@@ -12,9 +12,9 @@ const projectsTemplate = () => html `
                         <li><a href="/su-exercise">SoftUni Exercises</a></li>
                     </ul>
                 </div>
-                <div class="left project">
+                <!-- <div class="left project">
                     <img src="/images/moviemagic.png" alt="">
-                </div>
+                </div> -->
 
                 <div class="right project">
 
@@ -34,6 +34,22 @@ const projectsTemplate = () => html `
                        </ul>
                        <a href="https://github.com/victoriagopin/Movie-Magic" target="_blank">Линк към проекта в GitHub</a>
                     </ul>
+                </div>
+
+                <div>
+                 
+                    <input type="radio" name="position"  />
+                    <input type="radio" name="position" />
+                    <input type="radio" name="position" checked/>
+                    <input type="radio" name="position" />
+                    <input type="radio" name="position" />
+                    <main id="carousel">
+                      <div class="item mm"></div>
+                      <div class="item mm"></div>
+                      <div class="item mm"></div>
+                      <div class="item mm"></div>
+                      <div class="item mm"></div>
+                      </main>
                 </div>
             </div>
         </div>`;
