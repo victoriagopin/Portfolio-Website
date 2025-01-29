@@ -1,13 +1,42 @@
-import { html, render } from '../lib.js';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/Portfolio-Website/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
 
-const additionalInfoTemplate = () => html`
-<div class="container about">
+        <nav>
+            <ul>
+                <li><a href="/index.html">За мен</a></li>
+                <li><a href="/projects.html">Проекти</a></li>
+            </ul>
+        </nav>
+
+        <div class="navigation">
+    
+                <div class="heading">
+                    <a href="https://github.com/victoriagopin" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container about">
             <div class="square">
                 <div class="nav">
                     <ul>
-                        <li><a href="/about">Лична информация</a></li>
-                        <li><a href="/experience">Опит</a></li>
-                        <li><a href="/additional-information">Допълнителна информация</a></li>
+                        <li><a href="/index.html">Лична информация</a></li>
+                        <li><a href="/experience.html">Опит</a></li>
+                        <li><a href="/additional-info.html">Допълнителна информация</a></li>
                     </ul>
                 </div>
             
@@ -54,8 +83,7 @@ const additionalInfoTemplate = () => html`
                     </div>
                     
                </div>
-            </div>`;
-
-export function showAdditionalInfo(){
-    render(additionalInfoTemplate());
-}
+            </div>
+    </main>
+</body>
+</html>

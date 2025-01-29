@@ -576,9 +576,14 @@ main#carousel {
     background-repeat: no-repeat;
     border: 2px solid #2888a6;
   }
+
+
+  input.first:nth-of-type(1){
+    margin-left: 47%;
+  }
   
   input:nth-of-type(1) {
-    margin-left: 49%;
+    margin-left: 45%;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
   }
@@ -628,8 +633,4 @@ main#carousel {
 
   input[type="radio"]:checked{
     accent-color: #c27770;
-  }
-
-  input.first:nth-of-type(1){
-    margin-left: 45%;
   }
