@@ -323,7 +323,7 @@ div.fixed h2{
 }
 
 .right.project ul a {
-    margin: 25px auto 15px auto;
+    margin: 25px auto 0 auto;
     text-decoration: none;
     background: white;
     color: #c27770;
